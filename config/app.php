@@ -2,6 +2,16 @@
 
 return [
 
+    
+        // Outros providers
+        Webkleur\Cart\CartServiceProvider::class,
+    
+
+    
+        // Outros aliases
+        'Cart' => Webkleur\Cart\Facades\CartFacade::class,
+    
+
     /*
     |--------------------------------------------------------------------------
     | Application Name
